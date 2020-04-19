@@ -1,0 +1,8 @@
+{
+	"name": "acigna/SoWS_client",
+	"version": "0.1.0",
+	"dependencies": {
+		"autobahn": "19.*",
+		"mp4box": "^0.3.20"
+	}
+}
