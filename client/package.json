@@ -1,5 +1,5 @@
 {
-	"name": "acigna/SoWS_client",
+	"name": "@acigna/SoWS_client",
 	"version": "0.1.0",
 	"dependencies": {
 		"autobahn-browser": "19.*"
