@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title></title>
+        <script type="text/javascript" src="node_modules/autobahn-browser/autobahn.js"></script>
+        <script type="text/javascript" src="remote_stream_receiver_client.js"></script>
+        <script type="text/javascript" src="stream_config.js"></script>
+</head>
+<body>
+<video id="stream">
+	
+</video>
+<script type="text/javascript">
+        var rsrc = new RemoteStreamReceiverClient( stream_config.ws_url, stream_config.stream_url );
+        rsrc.onStreamingSessionStart = function ( mediaSource ) {
+                var videoElement  = this.createVideoElementFromMediaSource( mediaSource );
+                document.body.appendChild( videoElement );
+        }
+        rsrc.startReceiveStreaming();
+</script>
+
+</body>
+</html>
+
+
