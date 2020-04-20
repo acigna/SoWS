@@ -1,5 +1,6 @@
 {
 	"name": "@acigna/SoWS_server",
+	"description": "The server side of the SoWS library",
 	"version": "0.1.0",
 	"dependencies": {
 		"autobahn": "19.*",
