@@ -1,7 +1,7 @@
 # SoWS
 Stream over Web Socket : Managing for now the reception of remote streams in web browser using MSE and Web Socket.
 
-This work is part of a collaboration with Mosaic Lab, Aalto University, Finland for 5G video streaming services at the Edge to VR devices. Some examples will be included showing the VR usage. 
+This work is part of a projet on 5G video streaming services at the Edge to VR devices. Some examples will be included showing the VR usage. 
 
 # Architecture
 The following Figure shows the system architecture :
