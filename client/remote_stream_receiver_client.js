@@ -101,7 +101,6 @@ RemoteStreamReceiverClient.prototype = {
 				console.log( "track mime", trackMime );
 				console.log(MediaSource.isTypeSupported(trackMime));
 				var sourceBuffer = mediaSource.addSourceBuffer(trackMime);
-				sourceBuffer.mode = 'sequence';
 				sources[keyIndex] = {};
 				sources[keyIndex].buffer = sourceBuffer;
 				sources[keyIndex].queue = [];
